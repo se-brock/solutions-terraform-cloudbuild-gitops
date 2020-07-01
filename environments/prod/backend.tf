@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "edw-infra-sandbox19090000-tfstate"
     prefix = "env/prod"
   }
 }
